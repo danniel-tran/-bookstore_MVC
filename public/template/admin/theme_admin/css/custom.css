@@ -1,0 +1,165 @@
+body {
+  font-family: "Helvetica Neue", Roboto, "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+table.table.btn-table td {
+  vertical-align: middle;
+}
+
+#form-table th a {
+  color: #212529;
+}
+
+label.required::before {
+  content: " * ";
+  color: red;
+}
+
+.mark, mark {
+  padding: 0;
+  background-color: yellow;
+}
+
+.badge:empty {
+  display: inline-block;
+  padding: 10px !important;
+}
+
+.ck-editor__editable {
+  min-height: 200px;
+}
+
+tr.my-read-only {
+  pointer-events: none;
+  background-color: #dee2e6;
+}
+
+tr.my-read-only {
+  pointer-events: none;
+  background-color: #dee2e6;
+}
+
+#bulk-apply {
+  position: relative;
+}
+
+#bulk-apply .navbar-badge {
+  position: absolute;
+  right: -15px;
+  top: -15px;
+  padding: 6px 8px;
+}
+
+.custom-select-sm {
+  font-size: 100%;
+}
+
+.icon-color {
+  color: #ffffff;
+}
+
+.color_red {
+  color: #b81717;
+}
+
+.color-yellow {
+  color: yellow;
+}
+
+img {
+  max-width: 180px;
+  /* display: none; */
+  margin-top: 20px;
+}
+
+.slider-pic::after {
+  content: none;
+}
+
+.select-cancel {
+  display: none;
+}
+
+.slider-pic-input {
+  width: 60px;
+  height: 90px;
+  margin-top: 10px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+img.slider-pic-input {
+  display: none;
+}
+
+.select-cancel a {
+  color: black;
+}
+
+/* thumbnail add */
+
+#new-thumnail {
+  background-color: blue;
+  color: white;
+  display: inline-block;
+}
+
+.div-new-thumbnail {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+#thumbnail-alt {
+  margin-top: 0px;
+}
+
+.main-thumbnail img {
+  margin-top: 0px;
+}
+
+.delt-thumb {
+  display: inline-block;
+  height: 100%;
+}
+
+.delt-thumb i {
+  font-size: 30px;
+  margin: auto;
+}
+
+.input-thumbnail img {
+  display: block;
+}
+
+.flex-thumb {
+  display: flex;
+  justify-content: space-between;
+}
+
+/*  add cart */
+
+.divNewBookInCart {
+  display: block;
+  margin: 5px auto;
+  text-align: center;
+}
+
+#add-book-in-cart {
+  background-color: green;
+}
+
+.book-input {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around
+}
+
+.book-input>select {
+  width: 300px;
+}
+
+.book-input>input {
+  width: 300px;
+}

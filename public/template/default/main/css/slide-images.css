@@ -1,0 +1,14 @@
+.thumbnail-container{
+    position: relative;
+    height: 70px;
+}
+.thumnail-button>a{
+    align-items: center;
+    line-height: 25px;
+    height: 53px;
+    border: 3px solid black;
+}
+
+
+
+

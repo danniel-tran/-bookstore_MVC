@@ -1,0 +1,7 @@
+/*========================== Slider test ==========================*/
+
+/* image zoom css */
+
+div.row>div.col-lg-4>div>div>a {
+  display: inline-block;
+}

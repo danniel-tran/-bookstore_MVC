@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+}
+
+#small-img-roll {
+    display: flex;
+    width: 100%;
+}
+
+div#small-img-roll>img.show-small-img {
+    width: 50px !important;
+    height: 75px !important;
+}
+
+div#small-img-roll img.show-small-img {
+    width: 50px !important;
+    height: 75px !important;
+}
+
+#box-image {
+    position: relative;
+}
+
+/*======================================================= carousel ============================================*/
+
+.small-img {
+    width: 244.98px;
+    height: 70px;
+    margin-top: 10px;
+    position: relative;
+}
+
+/* icon */
+
+.small-img .icon-left, .small-img .icon-right {
+    width: 12px;
+    height: 24px;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+}
+
+.small-img .icon-left {
+    transform: rotate(180deg)
+}
+
+.small-img .icon-right {
+    right: 0;
+}
+
+.small-img .icon-left:hover, .small-img .icon-right:hover {
+    opacity: .5;
+}
+
+/* margin show small image-thumbnail */
+
+.small-container .show-small-img {
+    width: 70px;
+    height: 70px;
+    margin-right: 4px;
+    cursor: pointer;
+    float: left;
+}
+
+.small-container .show-small-img:last-of-type {
+    margin-right: 0;
+}
+
+/* small container */
+
+.small-container {
+    width: 220px;
+    height: 75px;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+/* small-img-roll */
+
+#small-img-roll {
+    position: absolute;
+    top: 0px;
+    transition: left 1s;
+}
